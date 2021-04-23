@@ -21,6 +21,10 @@
         <groupId>com.alibaba.nacos</groupId>
         <artifactId>nacos-all</artifactId>
         <version>${revision}</version>
+        <!--
+          <relativePath/>设定一个空值默认值为../pom.xml 表示将始终从父级仓库中获取，不从本地路径获取
+          MAVEN构建jar包时候查找顺序：relativePath元素中的地址–本地仓库–远程仓库
+        -->
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
