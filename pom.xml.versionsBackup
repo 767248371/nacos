@@ -178,9 +178,6 @@
     <build>
         <plugins>
             <plugin>
-                <!--
-                执行版本控制命令：mvn versions:set -DnewVersion=1.0.3-SNAPSHOT
-                -->
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>${versions-maven-plugin.version}</version>
